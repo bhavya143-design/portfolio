@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="bhavya2.jpg" alt="Profile Picture">
+        <p>Hello! I'am BHAVYA SHREE a web developer with experience in building modern web applications highly motivated BCA fresher with a passion for development with a strong foundation      in computer languages  and technical skills . Committed to  innovation and continuous
+ learning ,with task Management and team work abilities. Seeking
+ internships are entry -level role to contribute  to dynamic projects
+ and refine technical skills in the field of computer science.</p>
+
+                                                                                                                                                                                                                                     <h1>MY SKILLS</h1>
+         <h5>html</h5> <h5>css</h5><h5>javascript</h5><h5>php</h5>
+
+      </section>
+
+
+
+    <section id="projects">
+        <h1>PROJECTS CONTENT</h1>
+        <h4>SIP</h4>
+        <p>social immersion program is mainly based on community service.Gained a valuable teamwork and project management experience.
+         team NGO (SAMMILANA SAMSTHE)regarding a transgender . </p>
+        <h4>coderblog</h4>
+        <p>Coder blog is a web based application regarding programming assignments especially for computer science students. In this website programs could be posted by admin or faculty.
+         This mini project explains about implementing a website which is convenient to use for both student and faculty about programming related questions.
+         Faculty can easily broadcast a question  to all users of the website and students can be able to submit the solution with valid login details.
+        This also aims at enhancing interaction between students and faculty as well as among students.</p>
+
+     </section>
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="upload_resume.php" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
